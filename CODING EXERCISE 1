@@ -2,8 +2,8 @@ package numericData;
  
  // Add five integers and display their sum
  // Display average for five integers
- 
-  //  Save as "Exercise1.java"
+ //  Save as "Exercise1.java"
+
 class Exercise1 {
 
 	public static void main(String[] args) {  // Dalam class mesti ada main method
@@ -32,9 +32,9 @@ class Exercise1 {
 		mul = number1*number2*number3*number4*number5;
 		mul2 = (number1*number2)/number3;
 				
-		System.out.print("The sum is : ");  //Print a descriptive string
+		System.out.print("The sum is : ");  // Print a descriptive string
 		                                    // Cursor stays after the period string
-		System.out.println(sum);  //Print the value stored in variable sum
+		System.out.println(sum);  // Print the value stored in variable sum
 		                          // Cursor advances to the beginning of nest line
 		System.out.println("The average is : " + avg);
 		System.out.printf("The divide number is : %.2f ", div);
