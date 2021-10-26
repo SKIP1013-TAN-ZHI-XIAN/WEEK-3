@@ -2,7 +2,7 @@ package numericData;
  
  // Add five integers and display their sum
  // Display average for five integers
- //  Save as "Exercise1.java"
+ // Save as "Exercise1.java"
 
 class Exercise1 {
 
