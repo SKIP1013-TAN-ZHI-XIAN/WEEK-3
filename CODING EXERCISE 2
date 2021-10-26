@@ -29,8 +29,8 @@ class Exercise2 {
 		System.out.printf("GPA July Semester 2020/2021 Session : %.2f ", GPA1);
 		System.out.printf("\nGPA December Semester 2020/2021 Session : %.2f ", GPA2);
 		System.out.printf("\nGPA April Semester 2020/2021 Session : %.2f ", GPA3);
-		System.out.println("\nTotal Number of Credits Taken : " + sum);
-		System.out.printf("CGPA : %.2f ", avg);
+		System.out.printf("\nTotal Number of Credits Taken : %.2f ", sum);
+		System.out.printf("\nCGPA : %.2f ", avg);
 	}
 
 }
