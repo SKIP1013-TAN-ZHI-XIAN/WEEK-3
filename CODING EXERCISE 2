@@ -19,7 +19,7 @@ class Exercise2 {
 		double mul;
 		
 		sum = CH1 + CH2 + CH3;
-		avg = ((GPA1 * CH1) + (GPA2 * CH2) + (GPA3 * CH3))/sum;
+		avg = ((GPA1 * CH1) + (GPA2 * CH2) + (GPA3 * CH3)) / sum;
 		
 		System.out.println("ACADEMIC TRANSCRIPT");
 		System.out.println("Name : " + name);
