@@ -12,7 +12,7 @@ class Exercise2 {
 		double CH3 = 10;
 		String name = "Tan Zhi Xian";
 		String matric = "F01464";
-		String sem = "July 2020/2021";
+		String sem = "July 2020 / 2021";
 		String programme = "Foundation Studies in Management";
 		
 		double sum, avg;
@@ -26,9 +26,9 @@ class Exercise2 {
 		System.out.println("Matric.No : " + matric);
 		System.out.println("Sem/Session of Admission : " + sem);
 		System.out.println("Programme : " + programme);
-		System.out.printf("GPA July Semester 2020/2021 Session : %.2f ", GPA1);
-		System.out.printf("\nGPA December Semester 2020/2021 Session : %.2f ", GPA2);
-		System.out.printf("\nGPA April Semester 2020/2021 Session : %.2f ", GPA3);
+		System.out.printf("GPA July Semester 2020 / 2021 Session : %.2f ", GPA1);
+		System.out.printf("\nGPA December Semester 2020 / 2021 Session : %.2f ", GPA2);
+		System.out.printf("\nGPA April Semester 2020 / 2021 Session : %.2f ", GPA3);
 		System.out.printf("\nTotal Number of Credits Taken : %.2f ", sum);
 		System.out.printf("\nCGPA : %.2f ", avg);
 	}
