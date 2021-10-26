@@ -26,11 +26,11 @@ class Exercise1 {
 		float mul2;
 		
 		sum = number1 + number2 + number3 + number4 + number5;  // Compute sum
-		avg = sum/5;
-		div = number7/number6;
-		div2 = number9/number8;
+		avg = sum / 5;
+		div = number7 / number6;
+		div2 = number9 / number8;
 		mul = number1 * number2 * number3 * number4 * number5;
-		mul2 = (number1 * number2)/number3;
+		mul2 = (number1 * number2) / number3;
 				
 		System.out.print("The sum is : ");  // Print a descriptive string
 		                                    // Cursor stays after the period string
