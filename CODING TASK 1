@@ -1,4 +1,4 @@
-package task1;
+package shapeComputation;
 
 //Print the area and perimeter of a rectangle, given its radius
 
@@ -31,7 +31,7 @@ class RectangleComputation {  // Save as "RectangleComputation.java"
 
 }
 
-package task1;
+package shapeComputation;
 
 //Print the surface area, base area, and volume of a cylinder, given its radius and height
 
