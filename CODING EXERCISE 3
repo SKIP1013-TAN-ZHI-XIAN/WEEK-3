@@ -1,0 +1,75 @@
+package numericData;
+
+import java.util.Scanner;  //Method Scanner is used to key in data from keyboard or from user
+
+class Exercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int number1; 
+		int number2;
+		int number3;
+		int number4;
+		int number5;
+		int number6;
+		double bal1;
+		double bal2;
+		double amount;
+		String name;
+		char y;
+		char n;
+		
+		int sum;
+		
+		Scanner scanMe = new Scanner(System.in);  // scanMe is create new object for scanner input
+		
+		System.out.print("Please enter your name : ");
+		name = scanMe.nextLine();
+		
+		System.out.print("Please enter your balance : ");
+		bal1 = scanMe.nextDouble();
+		
+		System.out.print("Please enter your amount : ");
+		amount = scanMe.nextDouble();
+		
+		bal2 = bal1 - amount;
+		System.out.println("Your current balance is RM " + bal2);
+		
+		System.out.printf("Please enter amount 1 : ");
+		number1 = scanMe.nextInt();
+		System.out.println("Amount is " + number1);
+		
+		System.out.printf("Please enter amount 2 : ");
+		number2 = scanMe.nextInt();
+		System.out.println("Amount is " + number2);
+		
+		System.out.printf("Please enter amount 3 : ");
+		number3 = scanMe.nextInt();
+		System.out.println("Amount is " + number3);
+		
+		System.out.printf("Please enter amount 4 : ");
+		number4 = scanMe.nextInt();
+		System.out.println("Amount is " + number4);
+		
+		System.out.printf("Please enter amount 5 : ");
+		number5 = scanMe.nextInt();
+		System.out.println("Amount is " + number5);
+		
+		System.out.printf("Please enter amount 6 : ");
+		number6 = scanMe.nextInt();
+		System.out.println("Amount is " + number6);
+		
+		System.out.println();
+		System.out.println("My Name is " + name);
+		sum = number1 + number2 + number3 + number4 + number5 + number6;
+		System.out.print("The sum is ");
+		System.out.println(sum); 
+		System.out.println("Your current balance is "+ "RM" + bal2);
+		System.out.printf("Do you want to proceed : ");
+		y = scanMe.next().charAt(0);
+		System.out.println("YES");
+		n = scanMe.next().charAt(0);
+		System.out.println("NO");
+	}
+
+}
